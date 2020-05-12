@@ -1,21 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Keegan's Cities</title>
+        <title>Keegan's Cities</title>        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="styles.css"/>
     </head>
     <body>
-        <p>Test</p>
         <div>
             <h1>Keegan's Cities</h1>
             <p>Here are a list of all the cities where I have lived</p>
         </div>
-        <div>
-            <ul>
-                <li><a href="cities/opotiki.html">Opotiki</a></li>
-                <li><a href="cities/auckland.html">Auckland</a></li>
-                <li><a href="cities/aachen.html">Aachen</a></li>            
-            </ul>
-        </div>  
+        <div class="container-cities-flex">
+            <div>
+                <h2>Opotiki</h2>
+                <a href="cities/opotiki.html"><img class="img-city" src="img/opotiki.jpg" title="Opotiki"></a>
+            </div>
+            <div>
+                <h2>Whakatane</h2>
+                <a href="cities/whakatane.html"><img class="img-city" src="img/whakatane.jpg" title="Whakatane"></a>
+            </div>
+            <div>
+                <h2>Auckland</h2>
+                <a href="cities/auckland.html"><img class="img-city" src="img/auckland.jpg" title="Auckland"></a>
+            </div>
+            <div>
+                <h2>Aachen</h2>
+                <a href="cities/aachen.html"><img class="img-city" src="img/aachen.jpg" title="Aachen"></a>
+            </div>
+        </div>
     </body>
 </html>
